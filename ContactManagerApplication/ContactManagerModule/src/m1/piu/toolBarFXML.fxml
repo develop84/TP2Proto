@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="59.0" prefWidth="896.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="7.0" prefHeight="65.0" prefWidth="891.0">
+         <children>
+            <Button fx:id="newContact" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #05245d;" text="New Contact" textFill="#fcfafa">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="167.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #05245d;" text="Remove Contact" textFill="#fcfafa">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="350.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: #05245d;" text="Edit Contact" textFill="#fffefe">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <TextField layoutX="672.0" layoutY="20.0" promptText="Search">
+               <font>
+                  <Font name="Calibri" size="13.0" />
+               </font>
+            </TextField>
+            <Button layoutX="834.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: #05245d;" text="?" textFill="#fffefe" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
