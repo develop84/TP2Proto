@@ -7,11 +7,13 @@ package m1.piu;
 
 import java.awt.Component;
 import org.openide.awt.StatusLineElementProvider;
+import org.openide.util.lookup.ServiceProvider;
 
 /**
  *
  * @author pvl-vpl
  */
+@ServiceProvider (service=StatusLineElementProvider.class)
 public class MyStatusLineElementProvider implements StatusLineElementProvider{
 
     @Override
